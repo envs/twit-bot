@@ -32,7 +32,7 @@ function onFollowed(event) {
 	var response = '@' + screenName + ' Thank you for following, ' + name + '!';
 
 	T.post('statuses/update', {
-		status: response;
+		status: response
 	}, onTweeted);
 	console.log("I was followed by: " + name + ' @' + screenName);
 }
