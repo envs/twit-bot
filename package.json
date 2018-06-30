@@ -1,0 +1,28 @@
+{
+  "name": "twit-bot",
+  "version": "1.0.0",
+  "description": "A simple Twitter conversational bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/envs/twit-bot.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "twitter",
+    "bots"
+  ],
+  "author": "envs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/envs/twit-bot/issues"
+  },
+  "homepage": "https://github.com/envs/twit-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.10"
+  }
+}
